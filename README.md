@@ -59,7 +59,6 @@ This is a simple product management application built with Laravel. It allows us
 
 1. **Start the development server:**
 
-```bash
 php artisan serve
 
 2. **Access the application:**
@@ -95,6 +94,7 @@ Views: resources/views/products
 4.product_list.blade.php: Partial view for product list (used for live refresh)
 
 # Custom Validation Messages
+
 The ProductController includes custom validation messages for product fields. These messages ensure that users receive clear feedback when interacting with the forms.
 
 # Favicon
