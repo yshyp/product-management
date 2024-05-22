@@ -38,6 +38,7 @@
             </div>
             <button type="button" id="add-variant" class="btn btn-secondary">Add Variant</button>
             <button type="submit" class="btn btn-primary">Update</button>
+            <a href="{{ route('product.index') }}" class="btn btn-secondary">Back</a>
         </form>
     </div>
 @endsection
