@@ -9,7 +9,6 @@ This is a simple product management application built with Laravel. It allows us
 - Upload and manage product images
 - Search products by title
 - Paginate product listings
-- Live search and listing refresh
 - Favicon support
 
 ## Requirements
@@ -28,50 +27,56 @@ This is a simple product management application built with Laravel. It allows us
    cd product-management-app
 2. **Install dependencies:**
 
+    ```bash
     composer install
 
 3. **Copy the example environment file and update the environment variables:**
 
+    ```bash
     cp .env.example .env
 
 4. **Generate an application key:**
 
+    ```bash
     php artisan key:generate
 
 5. **Run the database migrations:**
 
+    ```bash
     php artisan migrate
 
 6. **Set up the storage link:**
 
+    ```bash
     php artisan storage:link
 
 7. **Seed the database (optional):**
 
+    ```bash
     php artisan db:seed
 
 # Usage
 
-1.Start the development server:
+1. **Start the development server:**
 
-
+```bash
 php artisan serve
 
-2.Access the application:
+2. **Access the application:**
 
 Open your browser and navigate to http://localhost:8000.
 
-3.Create Products:
+3. **Create Products:**
 
 Navigate to the product creation page and fill in the required fields (title, description, main image, variants).
 Save the product to see it listed on the product index page.
 
-4.Search and Pagination:
+4. **Search and Pagination:**
 
 Use the search box to filter products by title.
 Use the pagination links to navigate through different pages of products.
 
-5.Edit and Delete Products:
+5. **Edit and Delete Products:**
 
 Use the edit button (pencil icon) to update product details and variants.
 Use the delete button (trash icon) to remove a product.
