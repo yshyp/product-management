@@ -89,8 +89,11 @@ Models: App\Models\Product, App\Models\ProductVariant
 Views: resources/views/products
 
 1.index.blade.php: Displays the product listing with search and pagination
+
 2.create.blade.php: Form to create a new product
+
 3.edit.blade.php: Form to edit an existing product
+
 4.product_list.blade.php: Partial view for product list (used for live refresh)
 
 # Custom Validation Messages
